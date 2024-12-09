@@ -25,6 +25,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
 }
 
 .header_icon {
@@ -96,6 +97,7 @@
 
   .header-part {
     flex: 1;
+    cursor: pointer;
   }
 
   .header_icon {
@@ -160,12 +162,14 @@
 
 .header_main_icon:first-child {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
   .header_main_icon:first-child {
     display: flex;
     padding-right: 10px;
+    cursor: pointer;
   }
 }
 

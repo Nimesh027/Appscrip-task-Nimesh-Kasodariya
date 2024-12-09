@@ -33,10 +33,10 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="header_main_icon" onClick={toggleNavMenu}>
-                    <img src="/icons/humberg.svg" alt="Menu" />
+                    <img src="/icons/humberg.svg" alt="Menu" style={{cursor:'pointer'}} onClick={handleHomePage}/>
                 </div>
                 <div className="header_main_icon">
-                    <img src="/icons/main.svg" alt="Logo" />
+                    <img src="/icons/main.svg" alt="Logo" style={{cursor:'pointer'}} onClick={handleHomePage}/>
                 </div>
                 <div className="header-part logo" onClick={handleHomePage}>LOGO</div>
                 <div className="header_icon">
